@@ -1,0 +1,57 @@
+/* #####################################navigation############################################################ */
+  #navbar{
+      flex-direction: column;
+      transition: ease-out;
+  }
+  #navbar ul li {
+    font-size: 0.9rem;
+  }
+  #navbar ul li a {
+    padding: 0px 7.5px;
+  }
+
+/* ##########################################home section############################################ */
+#home #btn{
+    background-color: whitesmoke;
+}
+#home h1{
+    font-size: 1.5rem;
+}
+#home{
+    margin-bottom: 117px;
+}
+
+
+
+/* ############################################service section################################################### */
+#service{
+    flex-direction: column;
+}
+
+
+/* ########################################client section######################################################### */
+#client{
+    flex-wrap:wrap;
+}
+#client img{
+    height: 85px;
+    width: 112px;
+}
+#client-container::before{
+    height: 350px;
+}
+
+/* ################################################contact section################################################### */
+
+
+#contact-container form {
+    width: 51%;
+}
+#contact-box #btn1 {
+    flex-direction: column;
+}
+#contact-box .btn {
+    margin: 2px 5px
+}
+
+/* ####################################################footer##################################################### */
