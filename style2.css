@@ -79,7 +79,7 @@ body{
 #home::before{
     content: "";
     position: absolute;
-    background: url('/head.jpg') no-repeat center center/cover;
+    background: url('head.jpg') no-repeat center center/cover;
     opacity: 0.9;
     z-index: -1;
     top: 0px;
@@ -162,7 +162,7 @@ body{
 #client-container::before {
     content: "";
     position: absolute;
-    background: url("/bg1.jpg")no-repeat center center/cover;
+    background: url("bg1.jpg")no-repeat center center/cover;
     height: 247px;
     width: 100%;
     /* top: 0px; */
@@ -203,7 +203,7 @@ body{
 #contact-container::before{
     content: "";
     position: absolute;
-    background: url("/contact.jpg")no-repeat center center/cover ;
+    background: url("contact.jpg")no-repeat center center/cover ;
     left: 0px;
     height: 100%;
     width: 100%;
